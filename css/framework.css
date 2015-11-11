@@ -1,0 +1,169 @@
+/*   
+   C# GridView Shop Example   
+
+   Developed by David Millington
+   http://www.davidmillington.net
+   
+   For DevShed Articles
+   http://www.devarticles.com
+   
+   Batman Standard Color Scheme
+   Size based on 800x600 display: http://www.adobe.com/cfusion/knowledgebase/index.cfm?id=tn_14252
+*/
+
+html, body
+   {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      font: normal normal normal 12px Arial, Verdana, Sans-Serif;      
+      color: #000000;
+      text-align: center;
+      background:  url() no-repeat scroll top left;      
+   }
+
+form
+   {
+      width: 780px;
+      margin: 0 auto;
+      background: #f8a904 url() no-repeat scroll top left;
+   }   
+   
+/* Defaults */      
+img
+   {
+      border: none;  
+   } 
+   
+p, table, td, tr
+   {
+      font: normal normal normal 12px Arial, Verdana, Sans-Serif;
+      color: #000000;      
+   } 
+   
+h1, .h1
+   {
+      font: normal normal normal 18px Arial, Verdana, Sans-Serif;                
+   }
+    
+h2, .h2
+   {
+      font: normal normal normal 16px Arial, Verdana, Sans-Serif;                
+   }   
+   
+h3, .h3
+   {
+      margin: 0;
+      padding: 0;
+      font: normal normal normal 12px Arial, Verdana, Sans-Serif;      
+   }
+    
+/*
+   Main Page Elements
+*/  
+
+.header
+   {
+      width: 100%;  
+      padding: 10px;
+   }
+   
+.mainmenu
+   {
+      width: 100%;  
+      padding: 5px 0px;
+   }
+   
+.content
+   {
+      width: 780px;  
+   }
+   
+.footer
+   {
+      width: 100%;  
+      padding: 5px 0px;
+   }   
+   
+/*
+   Two Main Fieldsets
+*/   
+   
+.left
+   {
+      float: left;
+      width: 500px;
+      background: #fff url() no-repeat scroll top left;
+   }
+   
+.right
+   {
+      float: left;
+      width: 280px;
+      background: #f8a904 url() no-repeat scroll top left;
+   }   
+
+
+fieldset
+   {
+      width: 97%;
+      margin: 0 auto;
+      padding: 0;
+      text-align: left;
+      border: 1px #da821e solid;
+   }   
+
+legend
+   {
+      margin: 0;
+      padding: 5px;
+      font-weight: 900;
+   }    
+         
+.clear
+   {
+      clear: both;
+   }   
+   
+/*
+   The GridViews get rendered as tables so we can format them by setting table styles
+*/   
+.shopgrid
+   {
+      width: 100%;
+   }
+
+.shopgridheader, .shopgridfooter
+   {
+      background: #fff url() no-repeat scroll top left;  
+   }   
+      
+.shopgridrow
+   {
+   }
+   
+.shopgridrowalt
+   {
+      background: #da821e url() no-repeat scroll top left;  
+   }   
+   
+.shopgridpager
+   {
+      text-align: center;      
+   }   
+   
+.shopgridpager a
+   {
+      font-weight: 900;  
+   }
+   
+.shopgridempty
+   {
+      text-align: center;  
+   }   
+   
+.basketcontrols
+   {
+      text-align: center;
+      padding: 10px;
+   }

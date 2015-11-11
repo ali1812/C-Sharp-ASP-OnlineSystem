@@ -1,0 +1,4 @@
+﻿Thank you for registering ##name##
+your Account information is as follow:
+username:##username##
+Password:##password##

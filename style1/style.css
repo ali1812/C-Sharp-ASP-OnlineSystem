@@ -1,0 +1,302 @@
+/* panels holder */
+.ob_show_panelsholder
+{
+
+}
+
+/* panel */
+.ob_show_panel
+{
+	overflow:auto;
+}
+
+/* changer container */
+.ob_show_changer
+{
+	overflow:auto;
+}
+
+/* changer number */
+.ob_show_changernumber
+{	
+	font-family:Tahoma;
+	font-weight:bold;
+	font-size:8pt;
+	color:#F7F497;
+	
+	cursor:pointer;
+	
+	background-image:url(number.gif);
+	background-repeat:no-repeat;
+	background-position:center center;
+	
+	width:28px;
+	height:27px;
+	
+	padding:1px;
+}
+
+/* changer number onmouseover */
+.ob_show_changernumber_over
+{
+	font-family:Tahoma;
+	font-weight:bold;
+	font-size:8pt;
+	color:#634F1C;
+	
+	cursor:pointer;
+	
+	background-image:url(number_selected.gif);
+	background-repeat:no-repeat;
+	background-position:center center;
+	
+	width:28px;
+	height:27px;
+	
+	padding:1px;
+}
+
+/* changer number when selected */
+.ob_show_changernumber_selected
+{
+	font-family:Tahoma;
+	font-weight:bold;
+	font-size:8pt;
+	color:#634F1C;
+	
+	cursor:pointer;
+	
+	background-image:url(number_selected.gif);
+	background-repeat:no-repeat;
+	background-position:center center;
+	
+	width:28px;
+	height:27px;
+	
+	padding:1px;
+}
+
+/* changer play image */
+.ob_show_changerplay
+{
+	cursor:pointer;
+	text-align:center;
+	vertical-align:middle;
+	
+	background-image:url(play.gif);
+	background-repeat:no-repeat;
+	background-position:center center;
+	
+	width:28px;
+	height:27px;
+	
+	margin:0px;
+}
+
+/* changer play image onmouseover */
+.ob_show_changerplay_over
+{
+	cursor:pointer;
+	text-align:center;
+	vertical-align:middle;
+	
+	background-image:url(play.gif);
+	background-repeat:no-repeat;
+	background-position:center center;
+	
+	width:28px;
+	height:27px;
+	
+	margin:0px;
+}
+
+/* changer pause image */
+.ob_show_changerpause
+{
+	cursor:pointer;
+	text-align:center;
+	vertical-align:middle;
+	
+	background-image:url(pause.gif);
+	background-repeat:no-repeat;
+	background-position:center center;
+	
+	width:28px;
+	height:27px;
+	
+	margin:0px;
+}
+
+/* changer pause image onmouseover */
+.ob_show_changerpause_over
+{
+	cursor:pointer;
+	text-align:center;
+	vertical-align:middle;
+	
+	background-image:url(pause.gif);
+	background-repeat:no-repeat;
+	background-position:center center;
+	
+	width:28px;
+	height:27px;
+	
+	margin:0px;
+}
+
+/* changer left image */
+.ob_show_changerleft
+{
+	cursor:pointer;
+	text-align:center;
+	vertical-align:middle;
+	
+	background-image:url(style1/arrow_left.gif);
+	background-repeat:no-repeat;
+	background-position:center center;
+	
+	width:28px;
+	height:27px;
+	
+	margin-left:10px;
+	margin-right:3px;
+}
+
+/* changer left image onmouseover */
+.ob_show_changerleft_over
+{
+	cursor:pointer;
+	text-align:center;
+	vertical-align:middle;
+	
+	background-image:url(style1/arrow_left.gif);
+	background-repeat:no-repeat;
+	background-position:center center;
+	
+	width:28px;
+	height:27px;
+	
+	margin-left:10px;
+	margin-right:3px;
+}
+
+/* changer right image */
+.ob_show_changerright
+{
+	cursor:pointer;
+	text-align:center;
+	vertical-align:middle;
+	
+	background-image:url(style1/arrow_right.gif);
+	background-repeat:no-repeat;
+	background-position:center center;
+	
+	width:28px;
+	height:27px;
+	
+	margin-left:3px;
+	margin-right:10px;
+}
+
+/* changer right image onmouseover */
+.ob_show_changerright_over
+{
+	cursor:pointer;
+	text-align:center;
+	vertical-align:middle;
+	
+	background-image:url(style1/arrow_right.gif);
+	background-repeat:no-repeat;
+	background-position:center center;
+	
+	width:28px;
+	height:27px;
+	
+	margin-left:3px;
+	margin-right:10px;
+}
+
+/* changer top image */
+.ob_show_changertop
+{
+	cursor:pointer;
+	text-align:center;
+	vertical-align:middle;
+	
+	background-image:url(arrow_top.gif);
+	background-repeat:no-repeat;
+	background-position:center center;
+	
+	width:27px;
+	height:28px;
+	
+	margin-top:10px;
+	margin-bottom:3px;
+}
+
+/* changer top image onmouseover */
+.ob_show_changertop_over
+{
+	cursor:pointer;
+	text-align:center;
+	vertical-align:middle;
+	
+	background-image:url(arrow_top.gif);
+	background-repeat:no-repeat;
+	background-position:center center;
+	
+	width:27px;
+	height:28px;
+	
+	margin-top:10px;
+	margin-bottom:3px;
+}
+
+/* changer bottom image */
+.ob_show_changerbottom
+{
+	cursor:pointer;
+	text-align:center;
+	vertical-align:middle;
+	
+	background-image:url(arrow_bottom.gif);
+	background-repeat:no-repeat;
+	background-position:center center;
+	
+	width:27px;
+	height:28px;
+	
+	margin-top:3px;
+	margin-bottom:10px;
+}
+
+/* changer bottom image onmouseover */
+.ob_show_changerbottom_over
+{
+	cursor:pointer;
+	text-align:center;
+	vertical-align:middle;
+	
+	background-image:url(arrow_bottom.gif);
+	background-repeat:no-repeat;
+	background-position:center center;
+	
+	width:27px;
+	height:28px;
+	
+	margin-top:3px;
+	margin-bottom:10px;
+}
+
+
+.changerTable
+{
+	border-padding: expression(cellPadding=0);
+	border-padding: 0px;		
+	height:100%;
+}
+
+.changerTable td
+{
+	vertical-align:top;
+}
